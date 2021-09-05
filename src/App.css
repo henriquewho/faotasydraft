@@ -4,10 +4,11 @@ div {
 
 .header h1 {
   font-style: oblique;
+  text-align: center;
 }
 
 .goodel {
-  width: 30%;
+  width: 60%;
 }
 
 .invisible {
@@ -16,10 +17,26 @@ div {
 
 .imgButton {
   display: flex;
+  justify-content: space-around;
   gap: 15px; 
 }
 
+@media (max-width: 999px) {
+  .imgButton {
+    display: grid;
+    gap: 15px; 
+    justify-items: center;
+  }
+  .goodel {
+    width: 85%;
+  }
+  .btn {
+    width: 80%;
+  }
+}
+
 .btn {
+  width: 300px; 
   height: 100px;
   display:inline-block;
   border-radius: 0.5em;

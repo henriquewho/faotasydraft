@@ -18,7 +18,7 @@ function App() {
   // Take a random team from the 'teams' list and put it on the 'picked' list, 
   // for each press on the button
   function pick(e){
-    const pickedTeam = Math.floor(Math.random() * teams.length);
+    const pickedTeam = Math.floor (Math.random() * (teams.length));
     const prev = teams.filter((each, index)=>{
       return (index !== pickedTeam);
     });
@@ -37,13 +37,10 @@ function App() {
       <Header />
       <div className='imgButton'>
         <img src={goodel} className='goodel' alt=''></img>
-        <Button onClick={(teams.length>0)? ()=>pick(teams) : ()=>restart()} text={(teams.length>0)? 'Click for next pick' : 'Restart the draft'} teams={teams}/>
+        <Button onClick={(teams.length>0)? ()=>pick(teams) : ()=>restart()} text={(teams.length>0)? 'Next lottery pick' : 'Restart the lottery'} teams={teams}/>
       </div>
       
-
       <Teams teams={teams}/>
-
-      
 
       <PickedList picked={picked} />
     </div>
