@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Button({onClick, text}) {
+function Button({onClick, text, teams}) {
     return (
-        <button onClick={onClick}>
+        <button className={(teams.length>0) ? 'btn' : 'btn restart'} onClick={onClick}>
             {text}
         </button>
     )

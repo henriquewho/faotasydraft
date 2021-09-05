@@ -7,5 +7,42 @@ div {
 }
 
 .goodel {
-  width: 80%;
+  width: 30%;
+}
+
+.invisible {
+  display: none;
+}
+
+.imgButton {
+  display: flex;
+  gap: 15px; 
+}
+
+.btn {
+  height: 100px;
+  display:inline-block;
+  border-radius: 0.5em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+  font-weight: 700;
+  color: #FFFFFF; 
+  text-align: center;
+  transition: all 0.2s;
+  background-color: black;
+}
+
+.btn:hover {
+  color: #000000; 
+  background-color: #FFFFFF; 
+}
+
+.btn:active {
+  background-color: rgb(200, 235, 147); 
+  color: #FFFFFF; 
+}
+
+.btn.restart {
+  background-color: rgb(241, 144, 144);
 }

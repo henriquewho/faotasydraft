@@ -27,12 +27,24 @@ function App() {
     
   }
 
+  function restart(e){
+    setTeams(['Cougars', 'Chargers', 'Madrugas', 'Monkeys', 'Tenebrosos', 'Tigers', 'Reservas', 'Burkinas', 'Assombrinhos', 'Drew Breeze']); 
+    setPicked([]); 
+  }
+
   return (
     <div className="App">
       <Header />
-      <img src={goodel} className='goodel' alt=''></img>
+      <div className='imgButton'>
+        <img src={goodel} className='goodel' alt=''></img>
+        <Button onClick={(teams.length>0)? ()=>pick(teams) : ()=>restart()} text={(teams.length>0)? 'Click for next pick' : 'Restart the draft'} teams={teams}/>
+      </div>
+      
+
       <Teams teams={teams}/>
-      <Button onClick={()=>pick(teams)} text={'Click for next pick'}/> 
+
+      
+
       <PickedList picked={picked} />
     </div>
   );
