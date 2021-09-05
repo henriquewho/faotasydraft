@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/faotasydraft/static/css/main.f25dcefd.chunk.css",
-    "main.js": "/faotasydraft/static/js/main.425eafa1.chunk.js",
-    "main.js.map": "/faotasydraft/static/js/main.425eafa1.chunk.js.map",
+    "main.css": "/faotasydraft/static/css/main.b3fc4cc9.chunk.css",
+    "main.js": "/faotasydraft/static/js/main.e1f606ab.chunk.js",
+    "main.js.map": "/faotasydraft/static/js/main.e1f606ab.chunk.js.map",
     "runtime-main.js": "/faotasydraft/static/js/runtime-main.e54feb6a.js",
     "runtime-main.js.map": "/faotasydraft/static/js/runtime-main.e54feb6a.js.map",
     "static/js/2.19ba6c9a.chunk.js": "/faotasydraft/static/js/2.19ba6c9a.chunk.js",
     "static/js/2.19ba6c9a.chunk.js.map": "/faotasydraft/static/js/2.19ba6c9a.chunk.js.map",
     "index.html": "/faotasydraft/index.html",
-    "static/css/main.f25dcefd.chunk.css.map": "/faotasydraft/static/css/main.f25dcefd.chunk.css.map",
+    "static/css/main.b3fc4cc9.chunk.css.map": "/faotasydraft/static/css/main.b3fc4cc9.chunk.css.map",
     "static/js/2.19ba6c9a.chunk.js.LICENSE.txt": "/faotasydraft/static/js/2.19ba6c9a.chunk.js.LICENSE.txt",
     "static/media/goodel.98d66b50.png": "/faotasydraft/static/media/goodel.98d66b50.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e54feb6a.js",
     "static/js/2.19ba6c9a.chunk.js",
-    "static/css/main.f25dcefd.chunk.css",
-    "static/js/main.425eafa1.chunk.js"
+    "static/css/main.b3fc4cc9.chunk.css",
+    "static/js/main.e1f606ab.chunk.js"
   ]
 }
